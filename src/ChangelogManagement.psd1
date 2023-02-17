@@ -12,7 +12,7 @@
 RootModule = 'ChangelogManagement.psm1'
 
 # Version number of this module.
-ModuleVersion = '3.0.0'
+ModuleVersion = '3.0.1'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -118,10 +118,7 @@ PrivateData = @{
 
         # ReleaseNotes of this module
         ReleaseNotes = '### Added
-- File useless has been added
-### Changed
-- CI Workflows are deactivated
-- Powershell Gallery push is disabled'
+- File useless2 has been added'
 
         # Prerelease string of this module
         # Prerelease = ''
