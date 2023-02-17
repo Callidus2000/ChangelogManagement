@@ -94,9 +94,9 @@ jobs:
 
             ## Changes
             ${{ steps.changelog.outputs.releasenotes }}
-      - name: Publish Module to Gallery
-        uses: natescherer/publish-powershell-action@v1
-        with:
-          token: ${{ secrets.POWERSHELLGALLERY_KEY }}
-          target: gallery
-          path: out
+      # - name: Publish Module to Gallery
+      #   uses: natescherer/publish-powershell-action@v1
+      #   with:
+      #     token: ${{ secrets.POWERSHELLGALLERY_KEY }}
+      #     target: gallery
+      #     path: out
