@@ -1,10 +1,10 @@
 name: CI
 on:
-  push:
-    branches:
-      - main
-      - bugfix/**
-      - feature/**
+  # push:
+  #   branches:
+  #     - main
+  #     - bugfix/**
+  #     - feature/**
   workflow_dispatch:
 jobs:
   Test:
